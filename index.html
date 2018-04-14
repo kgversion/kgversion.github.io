@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>ITim company</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ITim company</title>
+
+  	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Cuprum|Permanent+Marker|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <ul class="dropdown-menu">
+      <li class="close">&times</li>
+      <li><a href="/" class="menu-link">Home</a></li>
+      <li><a href="javascript://0" class="dropclose" onclick="slowScroll ('#table')" style="text-decoration: none; color: #fff">Feautures</a></li>
+      <li><a href="javascript://0" class="dropclose" onclick="slowScroll ('#start')" style="text-decoration: none; color: #fff">Why our</a></li>
+      <li><a href="javascript://0" class="dropclose" onclick="slowScroll ('#our')" style="text-decoration: none; color: #fff">Our Job</a></li>
+      <li><a href="javascript://0" class="dropclose" onclick="slowScroll ('#gallery')" style="text-decoration: none; color: #fff">Gallery</a></li>
+      <li><a href="javascript://0" class="dropclose" onclick="slowScroll ('#getstart')"style="text-decoration: none; color: #fff" class="menu-link get-btn">Get Start</a></li>
+    </ul>
+    <!-- main -->
+    <div class="main" id="main">
+      <div class="main2"></div>
+      <!-- site header -->
+      <div class="header">
+        <div class="logo">
+          <a href="/" style="text-decoration: none">
+            <span style="font-size: 30px; color:#fff;"><i class="fa fa-laptop" style="font-size: 40px;"> </i> ITim</span>
+          </a>
+        </div>
+        <div class="dropdownbtn"><i class="fa fa-bars"></i></div>
+        <!-- open menu script -->
+        <script>
+          $(function(){
+            $('.dropdownbtn, .close, .dropclose').click(function(){
+              $('.dropdown-menu').toggleClass('dropdown-menu-active');
+            })
+            $('.dropdown-menu').click(function(){
+              $('.dropdown-menu').removeClass('dropdown-menu-active');
+            })
+          })
+        </script>
+        <div class="menu">
+          <ul class="nav-menu">
+            <li><a href="/" class="menu-link">Home</a></li>
+            <li><a href="javascript://0" onclick="slowScroll ('#table')" style="text-decoration: none; color: #fff">Feautures</a></li>
+            <li><a href="javascript://0" onclick="slowScroll ('#start')" style="text-decoration: none; color: #fff">Why our</a></li>
+            <li><a href="javascript://0" onclick="slowScroll ('#our')" style="text-decoration: none; color: #fff">Our Job</a></li>
+            <li><a href="javascript://0" onclick="slowScroll ('#gallery')" style="text-decoration: none; color: #fff">Gallery</a></li>
+            <li><a href="javascript://0" onclick="slowScroll ('#getstart')"style="text-decoration: none; color: #fff" class="menu-link get-btn">Get Start</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- main text -->
+      <div class="maintxt">
+        <span>marketing & analitics</span>
+        <h1>ITim Company name</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, voluptatem.</p>
+      </div>
+      <!-- arrow button -->
+      <div class="mainar">
+        <a href="javascript://0" onclick="slowScroll ('#down')">
+          <div class="arow">
+            <i class="fa fa-arrow-down" style="color: #6B6B6B  "></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <!-- plan -->
+    <div class="table" id="table">
+      <!-- plan head -->
+      <div class="thead">
+        <span class="soctittle">social</span>
+        <h2>Plan</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, dolor.</p>
+      </div>
+      <!-- price list -->
+      <div class="price">
+        <div class="pricetag">
+          <i class="fa fa-plane" ></i>
+          <span>Pesonal</span>
+          <h4><sup>$</sup>0<sub>/month</sub></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nesciunt officiis ad quaerat minima, quas dolor. Recusandae numquam commodi soluta, architecto facere officia eius incidunt sed at, tempore deleniti iste.</p>
+          <a href="#"><button class="pricebtn" >select plan</button></a>
+        </div>
+        <div class="pricetag">
+          <i class="fa fa-space-shuttle"></i>
+          <span>VIP</span>
+          <h4><sup>$</sup>20<sub>/month</sub></h4>
+          <p>Delectus doloribus fugiat voluptate obcaecati laborum beatae voluptas, facilis harum omnis labore dolore autem, et quasi! Odio officiis suscipit delectus, magnam explicabo laboriosam accusamus dolore est illo quod dolor odit.</p>
+          <a href="#"><button class="pricebtn">select plan</button></a>
+        </div>
+        <div class="pricetag">
+          <i class="fa fa-rocket"></i>
+          <span>Ultra VIP</span>
+          <h4><sup>$</sup>40<sub>/month</sub></h4>
+          <p>Soluta natus, dicta nulla ad veniam blanditiis quam fugit dignissimos aspernatur laudantium possimus iusto id aliquam praesentium ex, incidunt quae cupiditate a modi. Optio quam, saepe odio explicabo consequuntur facilis.</p>
+          <a href="#"><button class="pricebtn">select plan</button></a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Go start -->
+    <div class="gostart" id="start">
+      <div class="gostart2"></div>
+      <div class="wrap">
+        <span>marketing & analytics</span>
+        <h4>Enter text here</h4>
+        <button class="gs-btn">Get started</button>
+        <button class="gs-btn">Your text</button>
+      </div>
+    </div>
+
+
+
+
+    <!-- our job  -->
+    <div class="our" id="our">
+      <div class="job">
+        <h4>Our job</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+      </div>
+    </div>
+
+
+
+
+    <!-- gallery -->
+    <div class="gallery" id="gallery">
+      <figure>
+        <img src="http://unsplash.it/400/300?image=1"  alt="" />
+        <figcaption>Country<small>City</small></figcaption>
+      </figure>
+      <figure>
+        <img src="http://unsplash.it/800/600?image=60" alt="" />
+        <figcaption>Country<small>City</small></figcaption>
+      </figure>
+      <figure>
+        <img src="http://unsplash.it/800/600?image=96" alt=""/>
+        <figcaption>Country<small>City</small></figcaption>
+      </figure>
+      <figure>
+        <img src="http://unsplash.it/800/600?image=48" alt="" />
+        <figcaption>Country<small>City</small></figcaption>
+      </figure>
+      <figure>
+        <img src="http://unsplash.it/800/600?image=7" alt="" />
+        <figcaption>Country<small>City</small></figcaption>
+      </figure>
+      <figure>
+        <img src="http://unsplash.it/800/600?image=24" alt="" />
+        <figcaption>Country<small>City</small></figcaption>
+      </figure>
+    </div>
+    <!-- script for gallery -->
+    <script>
+        popup = {
+        init: function(){
+          $('figure').click(function(){
+            popup.open($(this));
+          });
+
+          $(document).on('click', '.popup img', function(){
+            return false;
+          }).on('click', '.popup', function(){
+            popup.close();
+          })
+        },
+        open: function($figure) {
+          $('.gallery').addClass('pop');
+          $popup = $('<div class="popup" />').appendTo($('body'));
+          $fig = $figure.clone().appendTo($('.popup'));
+          $bg = $('<div class="bg" />').appendTo($('.popup'));
+          $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
+          $shadow = $('<div class="shadow" />').appendTo($fig);
+          src = $('img', $fig).attr('src');
+          $shadow.css({backgroundImage: 'url(' + src + ')'});
+          $bg.css({backgroundImage: 'url(' + src + ')'});
+          setTimeout(function(){
+            $('.popup').addClass('pop');
+          }, 10);
+        },
+        close: function(){
+          $('.gallery, .popup').removeClass('pop');
+          setTimeout(function(){
+            $('.popup').remove()
+          }, 100);
+        }
+        }
+        popup.init()
+      </script>
+
+
+
+    <!-- massage -->
+    <form action="mail.php" method="post" /index.php id="getstart">
+      <ul class="form">
+        <li>
+          <span >
+            leave us a message
+          </span>
+        </li>
+        <li>
+          <input type="text" id="first-name" name="name" required id="contactname" placeholder="Wrtite your  name here">
+        </li>
+        <li>
+          <input type="email" id="email" name="mail" required id="email" placeholder="Write your email here">
+        </li>
+          <textarea  id="message" name="message" required id="message" placeholder="Write your message here"></textarea>
+        </li>
+          <button type="submit">Send <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+        </li>
+      </ul>
+    </form>
+
+
+
+    <!-- site footer -->
+    <div class="footer-wrap">
+      <div class="footer">
+        <div class="logo-footer">
+          <i class="fa fa-laptop" style="font-size:50px"> </i>
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <li><a href="#" class="footer-menu-link">Lorem.</a></li>
+            <li><a href="#" class="footer-menu-link">Lorem ipsum.</a></li>
+            <li><a href="#" class="footer-menu-link">ipsum dolor sit amet.</a></li>
+            <li><a href="#" class="footer-menu-link">dolor sit amet.</a></li>
+            <li><a href="#" class="footer-menu-link">dolor sit.</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="text" id="down">
+      <div class="copy">
+        <p>&copy 2018 Lorem ipsum dolor sit amet, consectetur.</p>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fa fa-facebook" style="color:#6a6a77;"></i></a>
+        <a href="#"><i class="fa fa-instagram" style="color:#6a6a77;"></i></a>
+        <a href="#"><i class="fa fa-youtube" style="color:#6a6a77;"></i></a>
+        <a href="#"><i class="fa fa-twitter" style="color:#6a6a77;"></i></a>
+      </div>
+    </div>
+
+    <!-- slowScroll cript -->
+    <script>
+      function slowScroll (id) {
+        var offset = 20;
+        $('html, body').animate ({
+          scrollTop: $(id).offset ().top - offset
+        }, 1000);
+        return false;
+      }
+    </script>
+  </body>
+</html>
